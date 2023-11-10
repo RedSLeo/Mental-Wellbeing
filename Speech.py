@@ -3,11 +3,10 @@ import time
 
 import speech_recognition as sr
 
-r = sr.Recognizer()
-harvard = sr.AudioFile('harvard.wav')
-with harvard as source:
-    audio = r.record(source)
+rec = sr.Recognizer()
+mic = sr.Microphone()
 
-type(audio)
+with mic as source:
+    audio = rec.listen(source)
 
-r.recognize_google(audio)
+rec.recognize_google(audio)
