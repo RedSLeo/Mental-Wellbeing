@@ -3,6 +3,7 @@ The Mental Health and Well-being App is a digital platform designed to support u
 
 # Features
 * Mood Tracking
+  * Since I plan to implement 
 * Meditation and Relaxation
 * Journaling
 * Therapist Directory
